@@ -22,7 +22,17 @@ public class ColorWheel {
             "#f092b0", // pink
             "#b7c0c7", // light gray
             "#8b4513", // bronze
-            "#ddca8b"  // gold
+            "#ddca8b", // gold
+            "#800000", // maroon
+            "#000000", // black
+            "#ff4500", // tomato red
+            "#ffdab9", // peach
+            "#6b8e23", // olive drab
+            "#b0e0e6", // powder blue
+            "#dc143c", // crimson
+            "#ff8c00", // darkorange
+            "#cd853f", // peru
+            "#d8bff8"  // thistle
     };
 
     // Methods = Actions the object can take
