@@ -30,7 +30,7 @@ public class ColorWheel {
             "#6b8e23", // olive drab
             "#b0e0e6", // powder blue
             "#dc143c", // crimson
-            "#ff8c00", // darkorange
+            "#ff8c00", // dark orange
             "#cd853f", // peru
             "#d8bff8"  // thistle
     };
