@@ -3,6 +3,7 @@ package com.shackman.funfacts;
 import java.util.Random;
 
 class FactBook {
+    Random randomGenerator = new Random();
     // Fields or Member Variables - Properties about the object
     private String[] facts = {
             "Ants stretch when they wake up in the morning.",
@@ -19,7 +20,6 @@ class FactBook {
     // Methods = Actions the object can take
     String getFact() {
         // Randomly select a fact
-        Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(facts.length);
         return facts[randomNumber];
     }
