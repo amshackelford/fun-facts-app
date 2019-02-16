@@ -26,13 +26,27 @@ public class ColorWheel {
             "#800000", // maroon
             "#000000", // black
             "#ff4500", // tomato red
-            "#ffdab9", // peach
             "#6b8e23", // olive drab
-            "#b0e0e6", // powder blue
             "#dc143c", // crimson
             "#ff8c00", // dark orange
             "#cd853f", // peru
-            "#d8bff8"  // thistle
+            "#6a5acd", // slate blue
+            "#808080", // gray
+            "#f4a460", // sandy brown
+            "#da70d6", // orchid
+            "#008080", // teal
+            "#d2b48c", // tan
+            "#1e90ff", // dodger blue
+            "#bc8f8f", // rosy brown
+            "#2e8b57", // sea green
+            "#b22222", // firebrick
+            "#e9967a", // dark salmon
+            "#006400", // dark green
+            "#c71585", // medium violet red
+            "#cd5c5c", //indian red
+            "#00bfff", //deep sky blue
+            "#2F4F4F" // deep slate gray
+
     };
 
     // Methods = Actions the object can take
