@@ -148,7 +148,7 @@ class FactBook {
             "Owls live in nests built by other bird.",
             "Owls make no noise when flying.",
             "Snowy owls are active during the day and night.",
-            "Snowy owls are the heaviest in North America.",
+            "Snowy owls are the heaviest owls in North America.",
             "Some owls can detect prey under up to 18 inches of snow using sound.",
             "Male peafowls are referred to as peacocks.",
             "Female peafowls are referred to as peahens.",
