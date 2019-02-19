@@ -46,7 +46,6 @@ public class ColorWheel {
             "#cd5c5c", //indian red
             "#00bfff", //deep sky blue
             "#2F4F4F" // deep slate gray
-
     };
 
     // Methods = Actions the object can take
