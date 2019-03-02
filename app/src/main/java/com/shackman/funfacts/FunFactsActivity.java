@@ -28,21 +28,27 @@ public class FunFactsActivity extends AppCompatActivity {
         showFactButton = findViewById(R.id.showFactButton);
         relativeLayout = findViewById(R.id.relativeLayout);
 
+        changeFact();
+
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String fact = factBook.getFact();
-
-                // Update the screen with our new fact
-                factTextView.setText(fact);
-
-                int color = colorWheel.getColor();
-                relativeLayout.setBackgroundColor(color);
-                showFactButton.setTextColor(color);
+                changeFact();
             }
         };
         showFactButton.setOnClickListener(listener);
 
         Log.d(TAG, "We're logging from the onCreate() method!");
+    }
+
+    public void changeFact() {
+        String fact = factBook.getFact();
+
+        // Update the screen with our new fact
+        factTextView.setText(fact);
+
+        int color = colorWheel.getColor();
+        relativeLayout.setBackgroundColor(color);
+        showFactButton.setTextColor(color);
     }
 }

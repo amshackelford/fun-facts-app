@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Did you know?"
+        android:text="@string/did_you_know"
         android:textColor="#80FFFFFF"
         android:textSize="24sp" />
 
@@ -34,7 +34,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="0dp"
         android:background="@android:color/white"
-        android:text="Show Another Fun Fact"
+        android:text="@string/show_another_fun_fact"
         android:textColor="#51b46d" />
 
 </RelativeLayout>
